@@ -1,0 +1,41 @@
+{"timestamp": "2026-04-20T16:47:09.623476Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-04-20T16:47:09.624475Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:47:09.625475Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:47:09.627202Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "timestamp": "2026-04-20T16:47:09.628735Z", "level": "error", "event": "Configuration file not found"}
+{"error": "Config file not found: C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "timestamp": "2026-04-20T16:47:09.630743Z", "level": "error", "event": "Error loading configuration"}
+{"error": "Error in [C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\utils\\config_loader.py] at line [50] | Message: Failed to load configuration file\nTraceback:\nTraceback (most recent call last):\n  File \"C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\utils\\config_loader.py\", line 50, in load_config\n    raise FileNotFoundError(f\"Config file not found: {path}\")\nFileNotFoundError: Config file not found: C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml\n", "timestamp": "2026-04-20T16:47:09.632147Z", "level": "error", "event": "Error initializing ModelLoader"}
+{"timestamp": "2026-04-20T16:48:21.041455Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-04-20T16:48:21.042459Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:48:21.044454Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:48:21.045454Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:48:21.047455Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:48:21.049456Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:48:21.050455Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:48:22.341842Z", "level": "info", "event": "LLM loaded successfully"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.378114 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.901442 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"timestamp": "2026-04-20T16:57:28.484170Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-04-20T16:57:28.485169Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:57:28.486169Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:57:28.487556Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:57:28.487556Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:57:28.487556Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:57:28.494552Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:57:28.494552Z", "level": "info", "event": "LLM loaded successfully"}
+{"timestamp": "2026-04-20T16:59:46.700109Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-04-20T16:59:46.701011Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:59:46.702018Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-04-20T16:59:46.703569Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\bkgou\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:59:46.706099Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-04-20T16:59:46.708105Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:59:46.709103Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2026-04-20T16:59:46.710099Z", "level": "info", "event": "LLM loaded successfully"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.486272 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.789042 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
